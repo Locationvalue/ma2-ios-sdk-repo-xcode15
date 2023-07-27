@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
     spec.resources = "Nautilus-ios-sdk/StampUI/Resources/moduleapps-stampcard-ui.json", "Nautilus-ios-sdk/StampUI/Resources/Assets.xcassets", "Nautilus-ios-sdk/StampUI/Sources/**/*.xib", "Nautilus-ios-sdk/StampUI/Sources/**/*.storyboard"
   else
     # Setting for release
-    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk-xcode15.git", :tag => "#{spec.version}" }
     spec.vendored_frameworks = 'NautilusStampUISDK.xcframework'
   end
 

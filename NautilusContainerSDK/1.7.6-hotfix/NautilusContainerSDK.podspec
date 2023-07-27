@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
     spec.exclude_files = "Nautilus-ios-sdk/Container/Sources/Exclude"
   else
     # Setting for release
-    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk-xcode15.git", :tag => "#{spec.version}" }
     spec.vendored_frameworks = 'NautilusContainerSDK.xcframework'
   end
 

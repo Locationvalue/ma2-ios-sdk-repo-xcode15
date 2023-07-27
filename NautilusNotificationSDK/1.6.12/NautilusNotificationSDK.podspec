@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
     spec.resources = "Nautilus-ios-sdk/Notification/Resources/moduleapps-notification.json"
   else
     # Setting for release
-    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk-xcode15.git", :tag => "#{spec.version}" }
     spec.vendored_frameworks = 'NautilusNotificationSDK.xcframework'
   end
 

@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
     spec.resources = "Nautilus-ios-sdk/Identify/Sources/**/*.xib", "Nautilus-ios-sdk/Identify/Resources/moduleapps-identify.json"
   else
     # Setting for release
-    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk-xcode15.git", :tag => "#{spec.version}" }
     spec.vendored_frameworks = 'NautilusIdentifySDK.xcframework'
   end
 

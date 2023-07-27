@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
     spec.resources =  "Nautilus-ios-sdk/GeoUtil/Resources/moduleapps-geoutil.json", "Nautilus-ios-sdk/GeoUtil/Resources/Nautilus.plist", "Nautilus-ios-sdk/GeoUtil/Resources/Nautilus_*.plist", "Nautilus-ios-sdk/GeoUtil/Resources/Assets.xcassets"
   else
     # Setting for release
-    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk-xcode15.git", :tag => "#{spec.version}" }
     spec.vendored_frameworks = 'NautilusGeoUtilSDK.xcframework'
   end
 

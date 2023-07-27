@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
     spec.resources = "Nautilus-ios-sdk/LotteryUI/Resources/moduleapps-lottery-ui.json", "Nautilus-ios-sdk/LotteryUI/Resources/ma_lottery_lottery_winning_animation.json", "Nautilus-ios-sdk/LotteryUI/Sources/**/*.xib", "Nautilus-ios-sdk/LotteryUI/Sources/**/*.xcdatamodeld", "Nautilus-ios-sdk/LotteryUI/Resources/Assets.xcassets"
   else
     # Setting for release
-    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk-xcode15.git", :tag => "#{spec.version}" }
     spec.vendored_frameworks = 'NautilusLotteryUISDK.xcframework'
   end
 

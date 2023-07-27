@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
     spec.resources = "Nautilus-ios-sdk/Coupon/Resources/moduleapps-coupon.json", "Nautilus-ios-sdk/Coupon/Sources/**/*.xib", "Nautilus-ios-sdk/Coupon/Sources/**/*.xcdatamodeld", "Nautilus-ios-sdk/Coupon/Resources/Assets.xcassets"
   else
     # Setting for release
-    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk-xcode15.git", :tag => "#{spec.version}" }
     spec.vendored_frameworks = 'NautilusCouponSDK.xcframework'
   end
 

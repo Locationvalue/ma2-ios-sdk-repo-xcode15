@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
     spec.resources = "Nautilus-ios-sdk/UI/Resources/moduleapps-ui-components.json", "Nautilus-ios-sdk/UI/Resources/Nautilus.plist", "Nautilus-ios-sdk/UI/Resources/Nautilus_*.plist", "Nautilus-ios-sdk/UI/Resources/Assets.xcassets", "Nautilus-ios-sdk/UI/Sources/**/*.xib"
   else
     # Setting for release
-    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk.git", :tag => "#{spec.version}" }
+    spec.source       = { :git => "https://github.com/Locationvalue/ma2-ios-sdk-xcode15.git", :tag => "#{spec.version}" }
     spec.vendored_frameworks = 'NautilusUISDK.xcframework'
   end
 
